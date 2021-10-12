@@ -1,0 +1,147 @@
+[
+    {
+        "id": "4yA7h5mjG",
+        "uuid": "e7e890bc-137c-4e4d-b28d-55afc3b48e08",
+        "firstName": "Else",
+        "lastName": "Yost",
+        "username": "Allison45",
+        "role": "Player",
+        "password": "$2a$10$lrbLMKQhuQV4AG7rCShBvO2a8EaUf5YLY7RcdVVV/kF2BabYHLMna",
+        "email": "Evie_Barrows86@gmail.com",
+        "address": {
+            "streetA": "Kshlerin Haven",
+            "streetB": "2646 Stacy Ridges",
+            "streetC": "605 Creola Centers Apt. 226",
+            "streetD": "Suite 499",
+            "city": "South Margot",
+            "state": "Oregon",
+            "country": "French Southern Territories",
+            "zipcode": "23790-3703",
+            "geo": {
+                "lat": "-47.3038",
+                "lng": "-176.8251"
+            }
+        },
+        "phoneNumber": "474-620-2544",
+        "avatar": "https://avatars.dicebear.com/api/human/4yA7h5mjG.svg",
+        "balance": 193766,
+        "createdAt": "2020-12-16T08:56:09.493Z",
+        "modifiedAt": "2021-10-12T12:01:41.631Z"
+    },
+    {
+        "id": "9mLs0QWV97",
+        "uuid": "c91af47c-7cf9-4f0e-940f-7359d2084a81",
+        "firstName": "Fabian",
+        "lastName": "Bashirian",
+        "username": "Aniyah55",
+        "role": "Player",
+        "password": "$2a$10$lrbLMKQhuQV4AG7rCShBvO2a8EaUf5YLY7RcdVVV/kF2BabYHLMna",
+        "email": "Titus_Thompson84@hotmail.com",
+        "address": {
+            "streetA": "Schultz Garden",
+            "streetB": "208 Herzog Brooks",
+            "streetC": "063 Considine Street Apt. 605",
+            "streetD": "Suite 728",
+            "city": "Roselynberg",
+            "state": "Wisconsin",
+            "country": "Haiti",
+            "zipcode": "72812",
+            "geo": {
+                "lat": "-62.5290",
+                "lng": "127.4211"
+            }
+        },
+        "phoneNumber": "914-515-6555",
+        "avatar": "https://avatars.dicebear.com/api/human/9mLs0QWV97.svg",
+        "balance": 55395,
+        "createdAt": "2021-04-25T01:07:57.320Z",
+        "modifiedAt": "2021-10-12T19:35:30.941Z"
+    },
+    {
+        "id": "Y3VEvD7xMz",
+        "uuid": "cb83463a-4cbb-466b-95c3-68c5ff867083",
+        "firstName": "Hadley",
+        "lastName": "Leannon",
+        "username": "Susanna.Hegmann39",
+        "role": "Player",
+        "password": "$2a$10$lrbLMKQhuQV4AG7rCShBvO2a8EaUf5YLY7RcdVVV/kF2BabYHLMna",
+        "email": "Jensen_OHara69@gmail.com",
+        "address": {
+            "streetA": "Clifton Route",
+            "streetB": "09503 Osborne Key",
+            "streetC": "2172 Sauer Greens Suite 733",
+            "streetD": "Apt. 099",
+            "city": "Kelvinborough",
+            "state": "Utah",
+            "country": "Sierra Leone",
+            "zipcode": "30040-5819",
+            "geo": {
+                "lat": "19.4467",
+                "lng": "29.8056"
+            }
+        },
+        "phoneNumber": "493-301-1081",
+        "avatar": "https://avatars.dicebear.com/api/human/Y3VEvD7xMz.svg",
+        "balance": 12178,
+        "createdAt": "2021-05-29T09:36:27.636Z",
+        "modifiedAt": "2021-10-11T23:28:35.271Z"
+    },
+    {
+        "id": "97PKQ6OcEv",
+        "uuid": "e86aeb77-8f16-4369-b786-a2d126d5402a",
+        "firstName": "Eriberto",
+        "lastName": "Oberbrunner",
+        "username": "Corine54",
+        "role": "Coach",
+        "password": "$2a$10$lrbLMKQhuQV4AG7rCShBvO2a8EaUf5YLY7RcdVVV/kF2BabYHLMna",
+        "email": "Meaghan_Carroll@yahoo.com",
+        "address": {
+            "streetA": "Brant Pike",
+            "streetB": "9590 Douglas Crossing",
+            "streetC": "766 Wiegand Islands Apt. 979",
+            "streetD": "Suite 515",
+            "city": "Lisetteville",
+            "state": "Indiana",
+            "country": "Sri Lanka",
+            "zipcode": "48299-2900",
+            "geo": {
+                "lat": "80.6209",
+                "lng": "-32.3069"
+            }
+        },
+        "phoneNumber": "806-519-8331",
+        "avatar": "https://avatars.dicebear.com/api/human/97PKQ6OcEv.svg",
+        "balance": 177531,
+        "createdAt": "2020-10-16T04:36:55.979Z",
+        "modifiedAt": "2021-10-12T07:37:17.297Z"
+    },
+    {
+        "id": "2Ikg7NtnTk",
+        "uuid": "92f30a44-77ce-4892-9b55-7ec08c34d6aa",
+        "firstName": "Muriel",
+        "lastName": "Kertzmann",
+        "username": "Concepcion96",
+        "role": "Referee",
+        "password": "$2a$10$lrbLMKQhuQV4AG7rCShBvO2a8EaUf5YLY7RcdVVV/kF2BabYHLMna",
+        "email": "Terrence_Jones@gmail.com",
+        "address": {
+            "streetA": "Gerald Greens",
+            "streetB": "877 Nikolaus Shoal",
+            "streetC": "7030 Gislason Field Suite 601",
+            "streetD": "Suite 209",
+            "city": "Teresabury",
+            "state": "New York",
+            "country": "Saudi Arabia",
+            "zipcode": "26369-4771",
+            "geo": {
+                "lat": "31.3260",
+                "lng": "104.6806"
+            }
+        },
+        "phoneNumber": "405-467-9665",
+        "avatar": "https://avatars.dicebear.com/api/human/2Ikg7NtnTk.svg",
+        "balance": 68126,
+        "createdAt": "2020-12-29T18:42:03.369Z",
+        "modifiedAt": "2021-10-12T19:19:52.680Z"
+    }
+]

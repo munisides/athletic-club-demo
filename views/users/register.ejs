@@ -1,0 +1,54 @@
+<%- include('../partials/header') %>
+
+    <!-- title -->
+    <title>Club - Register</title>
+</head>
+<body class="d-flex flex-column vh-100">
+    <!-- navbar -->
+    <%- include('../partials/navbar') %>
+
+<div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+                <div class="card shadow">
+                         <img src="/public/assets/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg" alt="soccer stadium" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">REGISTER</h5>
+                        <form action="/register" method="POST" class="validated-form" novalidate>
+                            <div class="mb-3">
+                                <label class="form-label" for="username">Username</label>
+                                <input class="form-control" type="text" id="username" name="username" required autofocus>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="email">Email</label>
+                                <input class="form-control" type="email" id="email" name="email" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="password">Password</label>
+                                <input class="form-control" type="password" id="password" name="password" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <button class="btn btn-success btn-block">Register</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <%- include('../partials/footer') %>
+
+    <!-- from validator -->
+    <script src='/public/scripts/validateForms.js'></script>
+</body>
+</html>

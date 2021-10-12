@@ -1,0 +1,61 @@
+<%- include('../partials/header') %>
+
+    <!-- title -->
+    <title>Club Home - Roster</title>
+</head>
+<body class="d-flex flex-column vh-100">
+    <!-- navbar -->
+    <%- include('../partials/navbar') %>
+
+    <!-- testing -->
+    <!-- <h1>Roster Page</h1> -->
+
+    <!-- layout  -->
+    <div class="container">
+        <h1>Meet the Team</h1>
+    
+        <% for (let user of Users){%>
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <%if(user.avatar.length) {%>
+                            <img class="img-fluid img-thumbnail m-2" alt="" src="<%=user.avatar%>">
+                            <% } else {%>
+                                <img class="img-fluid" alt=""
+                                    src="https://res.cloudinary.com/douqbebwk/image/upload/v1600103881/YelpCamp/lz8jjv2gyynjil7lswf4.png">
+                                <% } %>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <!-- name -->
+                            <h5 class="card-title">
+                                <%= user.firstName + ' ' + user.lastName %>
+                            </h5>
+                            <!-- role -->
+                            <h5 class="card-title">
+                                <%= user.role %>
+                            </h5>
+                            <!-- location -->
+                            <p class="card-text">
+                                <%= user.address.city + ', ' + user.address.state %>
+                            </p>
+                            <!-- description -->
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Description will go here...
+                                </small>
+                            </p>
+                            <!-- Go to showcase -->
+                            <a class="btn btn-primary" href="/roster/<%=user.id%>">View <%=user.firstName%></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% }%>
+    </div>
+
+    <!-- footer -->
+    <%- include('../partials/footer') %>
+
+</body>
+</html>

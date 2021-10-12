@@ -1,0 +1,22 @@
+{
+    "name": "Drew McCullough",
+    "username": "Arielle.Breitenberg",
+    "email": "Nels86@gmail.com",
+    "address": {
+        "street": "Leanne Passage",
+        "suite": "Apt. 584",
+        "city": "Richmond",
+        "zipcode": "51896",
+        "geo": {
+            "lat": "-61.4859",
+            "lng": "168.9685"
+        }
+    },
+    "phone": "(753) 816-5741",
+    "website": "halie.net",
+    "company": {
+        "name": "Jacobson, Lubowitz and Hagenes",
+        "catchPhrase": "Quality-focused grid-enabled frame",
+        "bs": "revolutionize cross-media web-readiness"
+    }
+}

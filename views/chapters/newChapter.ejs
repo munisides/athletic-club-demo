@@ -1,0 +1,81 @@
+<%- include('../partials/header') %>
+
+    <!-- title -->
+    <title>Club Home - New Chapter</title>
+</head>
+<body class="d-flex flex-column vh-100">
+    <!-- navbar -->
+    <%- include('../partials/navbar') %>
+
+    <!-- testing -->
+    <h1>New Club Chapter</h1>
+
+    <!-- main -->
+    <div class="row">
+        <h1 class="text-center">New Chapter</h1>
+        <div class="col-md-6 offset-md-3">
+            <form action="/campgrounds" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label" for="title">Title</label>
+                    <input class="form-control" type="text" id="title" name="chapter[title]" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="location">Location</label>
+                    <input class="form-control" type="text" id="location" name="chapter[location]" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+    
+                <!-- <div class="mb-3">
+                    <label class="form-label" for="image">Image Url</label>
+                    <input class="form-control" type="text" id="image" name="campground[image]" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div> -->
+                <div class="mb-3">
+                    <label class="form-label" for="price">Chapter Registration Fee</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="price-label">$</span>
+                        <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="price"
+                            aria-describedby="price-label" name="chapter[price]" required>
+                    </div>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+    
+                <div class="mb-3">
+                    <label class="form-label" for="description">Description</label>
+                    <textarea class="form-control" type="text" id="description" name="chapter[description]"
+                        required></textarea>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-file custom-file">
+                        <input type="file" class="form-file-input" id="image" name="image" multiple>
+                        <label class="form-file-label" for="image">
+                            <span class="form-file-text custom-file-label">Choose image(s)...</span>
+                            <span class="form-file-button">Browse</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-success">Add Chapter</button>
+                </div>
+            </form>
+            <a href="/">All Chapters</a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <%- include('../partials/footer') %>
+
+</body>
+</html>

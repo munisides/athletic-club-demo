@@ -1,0 +1,28 @@
+<%- include('../partials/header') %>
+
+    <!-- title -->
+    <title>Club Home - Roster</title>
+    </head>
+
+    <body class="d-flex flex-column vh-100">
+        <!-- navbar -->
+        <%- include('../partials/navbar') %>
+
+            <!-- testing -->
+            <h1>Roster Page</h1>
+
+            <!-- main -->
+            <ul>
+                <% for(let user of Users) { %>
+                    <li>
+                        <%= user.username %>
+                    </li>
+                    <% } %>
+            </ul>
+
+            <!-- footer -->
+            <%- include('../partials/footer') %>
+
+    </body>
+
+    </html>
