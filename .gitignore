@@ -41,3 +41,6 @@ dist
 tmp
 out.js
 # cypress.env.json
+
+#temporary
+models/
