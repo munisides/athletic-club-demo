@@ -1,0 +1,43 @@
+# dependencies
+node_modules
+
+# production
+/build
+
+# testing 
+coverage
+
+# TO REVIEW: assets
+# cypress/results/*
+# cypress/reports/*
+# cypress/screenshots/*
+# cypress/videos/*
+
+# if/when applicable 
+# snapshots.js 
+
+# env
+env
+.env
+.env.*
+.env*.local
+env/
+
+# logs
+*.log
+log/
+
+
+# misc
+.DS_Store
+.vscode
+.history
+.projects
+.tmp
+*.exe
+*.orig
+*.aes
+dist
+tmp
+out.js
+# cypress.env.json
